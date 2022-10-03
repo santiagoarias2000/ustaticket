@@ -7,8 +7,11 @@ namespace ustaTickets.Models
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name = "Profile Pricture")]
         public string ProfilePictuaeURL { get; set; }
+        [Display(Name = "Name")]
         public string Fullname { get; set; }
+        [Display(Name = "Biography")]
         public string Bio { get; set; }
 
         //Realationship 
